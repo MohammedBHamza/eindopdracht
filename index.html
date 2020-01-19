@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <title>INDO TRVL</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito|Poppins&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Over Ons</a></li>
+                <li><a href="#tips">Tips</a></li>
+                <li><a href="#formulier">Zoek</a></li>
+            </ul>
+        </nav>
+        <div class="headertekst">
+            <h1> Gemakkelijk uw activiteiten boeken</h1>
+            <p>Met INDO TRVL zoekt en boekt u gemakkelijk uw activiteiten in Indonesië en hebt u alle boekingen op één platform!
+                Zo hoeft u nooit meer door uw boekingen te printen en bij elkaar te zoeken!</p>
+            <a href="#formulier" class="button">Activiteit zoeken</a>
+        </div>
+        <img src="/images/header-foto.png" alt="Vliegtuig en palmboom">
+    </header>
+    <section id="hoe">
+        <h2> Hoe werkt INDO TRVL?</h2>
+
+        <div class="flex-container">
+            <div class="flex-item">
+                <img src="/images/icon-home-1.svg" alt="">
+                <h3>Stap 1</h3>
+                <p>Plan je activiteit en voer in waar je naartoe wilt gaan</p>
+            </div>
+            <div class="flex-item">
+                <img src="/images/icon-home-2.svg" alt="">
+                <h3>Stap 2</h3>
+                <p>Boek je activiteit op de website van de desbetreffende aanbieder</p>
+            </div>
+            <div class="flex-item">
+                <img src="/images/icon-home-3.svg" alt="">
+                <h3>Stap 3</h3>
+                <p>Upload je boekingen op de website in jouw persoonlijke omgeving</p>
+            </div>
+        </div>
+        <h4>“ Op Indo TRVL boek ik al mijn activiteiten en het handige is dat ik alle boekingen op één platform heb staan! ”</h4>
+        <p class="naam"> Jantje Beton</p>
+        <p class="werk">Backpacker</p>
+    </section>
+    <section id="tips">
+        <h2>Tips</h2>
+        <div class="flex-container-tips">
+            <div>
+                <img src="/images/tips-1.jpg" alt="">
+                <p>Our guide Made Dwipa is one of the best guides we have met so far. </p>
+                <img src="/images/avatar-1.png" alt="Foto van persoon">
+                <p>Emma B.</p>
+            </div>
+            <div>
+                <img src="/images/tips-2.jpg" alt="">
+                <p>It was the best vacation I've ever had. I would definitely recommend it</p>
+                <img src="/images/avatar-2.png" alt="Foto van persoon">
+                <p>Hans M.</p>
+            </div>
+            <div>
+                <img src="/images/tips-3.jpg" alt="">
+                <p>This trip is great for scuba divers. I went with my friend and we all loved it</p>
+                <img src="/images/avatar-3.png" alt="Foto van persoon">
+                <p>Jantje B.</p>
+            </div>
+        </div>
+
+    </section>
+    <section id="formulier">
+        <h2>Vul de velden in en zoek!</h2>
+        <p>Op zoek naar een activiteit in Indonesië? Met onze handige tool kunt u de beste activiteiten voor u en/of reisgenoten zoeken.</p>
+
+        <form action="zoekresultaten.html">
+            <fieldset>
+                <legend>Vul in</legend>
+                <div>
+                    <label for="van">Bestemming</label>
+                    <input type="text" id="van" placeholder="Plaats, straat" required>
+                </div>
+                <label for="datum">Datum</label>
+                <input id="datum" class="zoek-item" type="date" name="datum" min="2020-01-22" max="2021-01-01" required>
+                <label for="tijd">Tijd</label>
+                <select id="tijd" name="Tijd">
+                    <option value="ochtend">Ochtend 10.00 uur</option>
+                    <option value="middag">Middag 14.00 uur</option>
+                    <option value="avond">Avond 19.00 uur</option>
+                </select>
+                <button type="submit">Zoek
+                </button>
+            </fieldset>
+        </form>
+
+    </section>
+    <section id="hulp">
+        <img src="/images/boei.svg" alt="Hulp icoon">
+        <h3>Hulp nodig?</h3>
+        <p>Hebt u hulp nodig, kunt u ons bereiken op de onderstaande email.</p>
+        <p>info@indotrvl.nl</p>
+    </section>
+    <footer>
+        <h4>Indo Trvl</h4>
+        <div>
+            <h5>Contact</h5>
+            <img src="/images/tel-1.svg" alt="telefoon">
+            <a href="tel:+31600000000">+316 00 00 00 00</a>
+        </div>
+        <div class="socials">
+            <a href="https://www.twitter.com"><img src="/images/Twitter_White-1.svg" alt="Twitter"></a>
+            <a href="https://www.linkedin.com"><img src="/images/LinkedIN.svg" alt="Linkedin"></a>
+            <a href="https://www.facebook.com"><img src="/images/Facebook.svg" alt=""></a>
+        </div>
+        <p class="copyright">© 2020 INDO TRVL. Alle rechten voorbehouden</p>
+    </footer>
+</body></html>
+
+
+<!--Content van: https://www.getyourguide.nl/-->
