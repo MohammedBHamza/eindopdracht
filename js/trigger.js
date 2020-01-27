@@ -6,8 +6,8 @@
 
 var likeIsAan = false;
 var image = document.getElementById('likebutton');
-var likeAan = '/images/hart-orangje.svg';
-var likeUit = '/images/hart-grijs.svg';
+var likeAan = './images/hart-orangje.svg';
+var likeUit = './images/hart-grijs.svg';
 var beoordelingen = document.getElementById('likes');
 
 function klik() {
